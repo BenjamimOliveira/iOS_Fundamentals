@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
         //comment
     }
+    
+    func teste() {
+        // TODO: absolutely nothing
+    }
 
 
 }

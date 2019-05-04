@@ -24,6 +24,10 @@ class ViewController: UIViewController {
     func teste() {
         // TODO: absolutely nothing
     }
+    
+    func teste2() {
+        // TODO: absolutely nothing
+    }
 
 
 }

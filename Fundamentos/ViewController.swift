@@ -9,7 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: Properties
+    
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var text1: UITextField!
+    
+    //MARK: Actions
+    
+    @IBAction func clickButton1(_ sender: Any) {
+        label1.text = text1.text
+    }
+    
+    //MARK: Internos
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,11 +37,6 @@ class ViewController: UIViewController {
     func teste() {
         // TODO: absolutely nothing
     }
-    
-    func teste12() {
-        // TODO: absolutely nothing
-    }
-
 
 }
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: Properties
     
@@ -26,6 +26,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         NSLog(NSLocalizedString("mainvc.message", comment: ""))
+        
+        //
+        text1.delegate = self as UITextFieldDelegate
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,8 +37,13 @@ class ViewController: UIViewController {
         //comment
     }
     
-    func teste() {
-        // TODO: absolutely nothing
+    //MARK: UITextFieldDelegate
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        label1.text = text1.text
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField .resignFirstResponder()
+        return true
     }
 
 }

@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6Zl-Oa-GOG"; */
+"6Zl-Oa-GOG.text" = "Descricao";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AsH-8h-DeC"; */
+"AsH-8h-DeC.normalTitle" = "Botao";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZVd-1r-z4N"; */
+"ZVd-1r-z4N.text" = "Descr2";

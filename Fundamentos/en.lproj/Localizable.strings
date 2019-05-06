@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Fundamentos
+
+  Created by Aluno on 06/05/2019.
+  Copyright © 2019 Benjamim. All rights reserved.
+*/
+
+mainvc.message = "Message";
+mainvc.title = "Title";
